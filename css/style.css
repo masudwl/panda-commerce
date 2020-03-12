@@ -1,9 +1,11 @@
 .container{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .custom-bg{
     background-color: #fceae8;
+    border-radius: 5px;
 }
+/* Slider Sytle  */
 .carousel-item{
     padding: 20px 40px;
 }
@@ -17,4 +19,53 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+}
+/* categories style  */
+.cat-1{
+    background-color: orange;
+}
+.cat-2{
+    background-color: rgb(212, 55, 128);
+}
+.cat-3{
+    background-color: blue;
+}
+.cat-1, .cat-2, .cat-3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.categories h1{
+    color: #ffffff;
+}
+.categories img{
+    width: 100%;
+}
+/* Product card style shoes  */
+.shoes{
+    text-align: center;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.shoes-area a{
+    text-decoration: none;
+    color: lightsalmon;
+    text-align: right;
+    padding: 10px;
+}
+.shoes img{
+    width: 100%;
+}
+
+/* Subscribe  */
+#subscribe{
+    height: 300px;
+    text-align: center;
+}
+#subscribe h6{
+    color: gray;
+}
+footer p{
+    text-align: center;
 }
