@@ -19,6 +19,10 @@
     border-radius: 8px;
     padding: 9px 25px;
     cursor: pointer;
+    transition: .5s;
+}
+.buy-now:hover{
+    background-image: linear-gradient(to bottom, #ff135f  0%, #ff589b 100%);
 }
 /* categories style  */
 .cat-1{
@@ -68,4 +72,11 @@
 }
 footer p{
     text-align: center;
+}
+input{
+    overflow: visible;
+    outline: 0;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
 }
